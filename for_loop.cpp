@@ -1,10 +1,12 @@
 #include<iostream>
 using namespace std;
 int main()
-{
-    for(int i=1; i<=10; i++)
+{   
+    int i=1,j; 
+    for(i=1,j=0; i<=10,j<5; i++,j++)
     { 
        cout<<i<<endl;
     }
+    cout<<"\n end of loop";
     return 0;
 }
